@@ -50,9 +50,42 @@ img{
 }
 /* intro ----------------------------------  intro*/
 
-.info {
-    display: flex;
+
+/* info ----------------------------------  info*/
+
+.info{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+.info .top-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
+.box-and-desc{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item{
+    text-align: center;
+    max-width: 200px;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882F6;  
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+/* info ----------------------------------  info*/
 .review {
     background-color: #E5E7EB;
     color: grey;
