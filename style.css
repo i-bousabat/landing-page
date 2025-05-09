@@ -3,16 +3,18 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: center;
 }
 body > * {
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 300px;
+    padding-left: 300px;
 }
-/* header ----------------------------------  header*/
+/* header ----------------------------------  start*/
 .header {
     background-color: #1F2937;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -33,16 +35,17 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
 }
-/* header ----------------------------------  header*/
+/* header ----------------------------------  end*/
 
 
-/* intro ----------------------------------  intro*/
+/* intro ----------------------------------  start*/
 .intro {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #1F2937;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -50,21 +53,23 @@ ul{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    max-width: 600px;
 }
 .small-text {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 500px;
+    padding-bottom:10px
 }
 
 img{
-    width: 450px;
+    width: 600px;
     height: auto;
 }
-/* intro ----------------------------------  intro*/
+/* intro ----------------------------------  end*/
 
 
-/* info ----------------------------------  info*/
+/* info ----------------------------------  start*/
 
 .info{
     padding-top: 50px;
@@ -81,6 +86,7 @@ img{
 .box-and-desc{
     padding-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -98,11 +104,12 @@ img{
     border-radius: 15px;
 }
 
-/* info ----------------------------------  info*/
+/* info ----------------------------------  end*/
 
-/* review  --------------------------------- review*/
+/* review  --------------------------------- start*/
 .review {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 50px;
     padding-bottom:50px;
@@ -118,21 +125,44 @@ img{
 .name {
     align-self: end;
 }
+/* review  --------------------------------- end*/
 
-/* review  --------------------------------- review*/
+/* action --------------------------------- start*/
 .action {
-    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin:50px 400px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    
 }
 
-.footer {
-    background-color: #1F2937;
+.call-to-action{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.signup {
     color: white;
 }
 
 
+/* action --------------------------------- end*/
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding:20px;
+    text-align: center;
+}
+
+/* buttons --------------------------------- start*/
+
 button {
   font-weight: bold;
-  color: white;
   border: none;
   border-radius: 10px;
   background: #3882F6;
@@ -142,4 +172,14 @@ button {
 }
 .action button {
     border: 2px solid white;
+    align-self: end;
 }
+
+/* buttons --------------------------------- end*/
+
+/* links --------------------------------- end*/
+a {                     
+    color: white;
+    text-decoration: none;
+}
+/* links --------------------------------- end*/
